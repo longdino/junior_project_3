@@ -1,0 +1,291 @@
+- model: eh_app.College
+  fields:
+    name: EN
+
+- model: eh_app.TrackRequirements
+  pk: 1
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 1
+  fields:
+    code: 1
+    id: EH-AERO
+    requirements: 1
+    department: AERO
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 2
+  fields:
+    advising_per_sem: 1
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 2
+  fields:
+    code: 2
+    id: EH-BAEN
+    requirements: 2
+    department: BAEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 3
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 3
+  fields:
+    code: 3
+    id: EH-BMEN
+    requirements: 3
+    department: BMEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 4
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 4
+  fields:
+    code: 4
+    id: EH-CHEN
+    requirements: 4
+    department: CHEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 5
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 5
+  fields:
+    code: 5
+    id: EH-CLEN
+    requirements: 5
+    department: CLEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 6
+  fields:
+    advising_per_sem: 1
+    activities_per_sem: 2
+    description: 'n/a'
+    eh_hours: 21
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 6
+  fields:
+    code: 6
+    id: EH-CSCE
+    requirements: 6
+    department: CSCE
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 7
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 7
+  fields:
+    code: 7
+    id: EH-CVEN
+    requirements: 7
+    department: CVEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 8
+  fields:
+    advising_per_sem: 1
+    activities_per_sem: 2
+    description: 'n/a'
+    eh_hours: 21
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 8
+  fields:
+    code: 8
+    id: EH-ECEN
+    requirements: 8
+    department: ECEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 9
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 9
+  fields:
+    code: 9
+    id: EH-ETID
+    requirements: 9
+    department: ETID
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 10
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 21
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 10
+  fields:
+    code: 10
+    id: EH-ISEN
+    requirements: 10
+    department: ISEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 11
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 11
+  fields:
+    code: 11
+    id: EH-ITDE
+    requirements: 11
+    department: ITDE
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 12
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 12
+  fields:
+    code: 12
+    id: EH-MEEN
+    requirements: 12
+    department: MEEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 13
+  fields:
+    advising_per_sem: 1
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 13
+  fields:
+    code: 13
+    id: EH-MSEN
+    requirements: 13
+    department: MSEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 14
+  fields:
+    advising_per_sem: 1
+    activities_per_sem: 2
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 14
+  fields:
+    code: 14
+    id: EH-NUEN
+    requirements: 14
+    department: NUEN
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 15
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 15
+  fields:
+    code: 15
+    id: EH-PETE
+    requirements: 15
+    department: PETE
+    college: EN
+
+- model: eh_app.TrackRequirements
+  pk: 16
+  fields:
+    advising_per_sem: 0.5
+    activities_per_sem: 1
+    description: 'n/a'
+    eh_hours: 18
+    requirements: ['Activity', 'AdvMtg']
+
+- model: eh_app.Track
+  pk: 16
+  fields:
+    code: 16
+    id: EH-OCEN
+    requirements: 16
+    department: OCEN
+    college: EN

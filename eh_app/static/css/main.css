@@ -1,0 +1,203 @@
+html{
+  padding: 10px;
+}
+.page-header {
+    background-color: #500000;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+	position: relative;
+}
+.top-left{
+	padding:  12px;
+	position: absolute;
+	bottom: 20px;
+    right: 20px;
+    color: white;
+	font-size: 15px;
+}
+.top-left a{
+  text-decoration: none;
+  color: inherit;
+}
+.centered_text{
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+}
+.login_table{
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 10px;
+	min-height: 100px;
+}
+.login_table tr{
+	margin: 10px;
+}
+.login_table td{
+	padding: 10px;
+}
+.filter_form{
+	position: relative;
+	margin: auto;
+	width: 60%;
+	overflow: hidden;
+	border: 2px blue solid;
+}
+.complete_list{
+	color: white;
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.complete_list a{
+	color: inherit;
+}
+.filter_form li{
+	float: left;
+	display: block;
+	padding: 10px;
+}
+.bottom_row{
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	left:0px;
+	right:0px;
+	margin: auto;
+	width: 60%;
+	text-align:center;
+}
+.filter_options input{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.filter_options label{
+	border: 1px blue solid;
+	padding: 5px;
+}
+.filter_options_active{
+	background-color: cyan;
+}
+.filter_options label:hover{
+	cursor: pointer;
+}
+#id_student_filter{
+	display: block;
+	margin: 10px;
+	margin-left: 50px;
+	width: 200px;
+}
+.table_container{
+	width: 100%;
+	padding-top: 15px;
+	overflow: auto;
+	margin: auto;
+}
+/*
+li
+{
+	list-style-type:none;
+}
+.filter_form{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+
+.checks{
+	padding: 40px;
+	margin: auto;
+	margin-top: 10px;
+	border: 5px solid blue;
+	width: 60%;
+	border-radius: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+.radio-buttons{
+	padding: 10px;
+	float:left;
+	margin: 10px;
+}
+
+
+
+
+.index-content{
+  font-family: arial;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+/*.grid-list-header{
+    display: grid;
+    grid-template-columns: 10% 15% 10% 12% 20% 8% 8% 6% 10% 14% 10% 10% 10% 10% 15%;
+    color: white;
+    margin-left: 3%;
+    font-size: 12px;
+}
+
+.grid-list-header div{
+    background-color: black;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.grid-list{
+    display: grid;
+    grid-template-columns: 10% 15% 10% 12% 20% 8% 8% 6% 10% 14% 10% 10% 10% 10% 15%;
+    margin-left: 3%;
+}
+.search{
+	width: 50%;
+	margin: auto;
+	background-color: gray;
+}
+.grid-list div{
+    background-color: #1a1221;
+    border: 1px solid gray;
+    padding: 10px;
+    color: white;
+}*/
+
+.student-list-content a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.student-list-content{
+  margin-left: 3%;
+}
+
+.index-content a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.studentlist {
+  border-collapse: collapse;
+  table-layout: auto;
+  background-color: #1a1221;
+  border: 1px solid white;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+.studentlist th,
+.studentlist td {
+  border: 1px solid gray;
+  text-align: center;
+  min-width: 100px;
+  padding: 5px;
+}
+input[type="text"]{
+	color: black;
+	
+}

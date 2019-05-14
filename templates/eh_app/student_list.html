@@ -1,0 +1,129 @@
+{% extends 'eh_app/top-bar.html' %}
+
+{% block content %}
+<div class="index-content">
+  <!-- ------- This is how it should look after linking db data -->
+  <div class= 'complete_list'>
+      <button class="btn btn-primary"><a href="{% url 'home' %}">New Search</a></button>
+	</div>
+	<div class = "table_container">
+	<table class="studentlist">
+	{% if category_filters != 0 %}
+    <tr>
+		{% for filter in category_filters %}				
+			<th>{{ filter }}</th>
+		{% endfor %}
+	</tr>
+	{% else %}
+		<div class = 'centered_text'>
+			No results were found<br>
+		<button class="btn btn-primary"><a href="{% url '' %}">Go back</a></button>
+		</div>
+	{% endif %}
+    
+     <!-- ------- This is how it should look after linking db data -->
+	{% if students != 0 %}
+		{% for student in students %}
+		<tr>
+			{% for attribute in student.values %}
+				{% if attribute.0 == '&' %}
+				<td><input type ="text" id = "TcOverride{{ student.UIN }}"></td>
+				{% elif attribute == "*^^" %}
+				<td><button class="btn btn-primary" onClick="override({{ student.UIN }})">Override</button></td>
+				{% else %}
+				<td>{{ attribute }}</td>
+				{% endif %}
+			{% endfor %}
+		</tr>
+		{% endfor %}
+	{% else %}
+		<div class = 'centered_text'>
+			No results were found<br>
+			<button class="btn btn-primary"><a href="{% url '' %}">Go back</a></button>
+		</div>
+	{% endif %}
+<!--      <td> {{ student.first_name }} </td>
+      <td> {{ student.last_name }} </td>
+      <td> {{ student.middle_name}} </td>
+      <td> {{ student.uin }} </td>
+      <td> {{ student.email }} </td>
+      <td> {{ student.times_on_probation}} </td>
+      <td> {{ student.times_dismissed}} </td>
+      <td> {{ student.cumulative_gpa }} </td>
+      <td> {{ student.first_year_grace }} </td>
+      <td> {{ student.status_gpa_alone }} </td>
+      <td> {{ student.degree_candidate }} </td>
+      <td> {{ student.graduated }} </td>
+      <td> {{ student.major_names }} </td>
+      <td> {{ student.minors_names }} </td>
+      <td> {{ student.first_tamu_semester }} </td>
+      <td> {{ student.annual_report_def_rating }} </td>
+    </tr> -->
+  </table>
+  </div>
+<!--<div class="student-list-content">
+
+  <button class="btn btn-primary"><a href="{% url 'home' %}">Back</a></button>
+  <div class="grid-list-header">
+    <div>First Name </div>
+    <div>Last Name </div>
+    <div>Middle Name</div>
+    <div>UIN</div>
+    <div>email</div>
+    <div>Times on Probation</div>
+    <div>Times Dismissed</div>
+    <div>GPA</div>
+    <div>First Year Grace?</div>
+    <div>Status Based on GPA Alone</div>
+    <div>Degree Candidate?</div>
+    <div>Graduated?</div>
+    <div>Major(s)</div>
+    <div>Minor(s)</div>
+    <div>Start Semester</div>
+  </div>
+
+
+  {% for student in students %}
+    <div class="grid-list">
+      <div> {{ student.first_name }} </div>
+      <div> {{ student.last_name }} </div>
+      <div> {{ student.middle_name}} </div>
+      <div> {{ student.uin }} </div>
+      <div> {{ student.email }} </div>
+      <div> {{ student.times_on_probation}} </div>
+      <div> {{ student.times_dismissed}} </div>
+      <div> {{ student.cumulative_gpa }} </div>
+      <div> {{ student.first_year_grace }} </div>
+      <div> {{ student.status_gpa_alone }} </div>
+      <div> {{ student.degree_candidate }} </div>
+      <div> {{ student.graduated }} </div>
+      <div> {{ student.major_names }} </div>
+      <div> {{ student.minor_names }} </div>
+      <div> {{ student.first_tamu_semester }} </div>
+    </div>
+  {% endfor %}
+  -->
+
+  <!-- <div class="grid-list">
+    <div>Fake</div>
+    <div>Data</div>
+    <div>Not a UIN</div>
+  </div> -->
+
+</div>
+<form method="post"  id = "overrideForm" action="{% url 'override_status' %}">
+{% csrf_token %}
+<input type="hidden" id = "FormUIN" name="UIN">
+<input type = "hidden" id = "FormValue" name = "value">
+</form>
+<script>
+function override(UIN)
+{
+	name = "TcOverride" + UIN;
+	overrideValue = document.getElementById(name).value;
+	document.getElementById("FormUIN").value = UIN;
+	document.getElementById("FormValue").value = overrideValue;
+	document.getElementById("overrideForm").submit();
+}
+</script>
+{% endblock %}

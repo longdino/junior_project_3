@@ -1,0 +1,240 @@
+- model: eh_app.ProbDefStatus
+  pk: 1
+  fields:
+    gpa_status: No GPA
+    max_gpa: n/a
+    status: No GPA
+- model: eh_app.ProbDefStatus
+  pk: 2
+  fields:
+    gpa_status: No GPA
+    max_gpa: 0
+    status: No GPA
+- model: eh_app.ProbDefStatus
+  pk: 3
+  fields:
+    gpa_status: No GPA
+    max_gpa: 3
+    status: No GPA
+- model: eh_app.ProbDefStatus
+  pk: 4
+  fields:
+    gpa_status: No GPA
+    max_gpa: 3.5
+    status: No GPA
+- model: eh_app.ProbDefStatus
+  pk: 5
+  fields:
+    gpa_status: No GPA
+    max_gpa: 4.0
+    status: No GPA
+- model: eh_app.ProbDefStatus
+  pk: 6
+  fields:
+    gpa_status: Dismiss-GPA Def
+    max_gpa: n/a
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 7
+  fields:
+    gpa_status: Dismiss-GPA Def
+    max_gpa: 0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 8
+  fields:
+    gpa_status: Dismiss-GPA Def
+    max_gpa: 3
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 9
+  fields:
+    gpa_status: Dismiss-GPA Def
+    max_gpa: 3.5
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 10
+  fields:
+    gpa_status: Dismiss-GPA Def
+    max_gpa: 4.0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 11
+  fields:
+    gpa_status: Good Standing(Prev Prob)
+    max_gpa: n/a
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 12
+  fields:
+    gpa_status: Good Standing(Prev Prob)
+    max_gpa: 0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 13
+  fields:
+    gpa_status: Good Standing(Prev Prob)
+    max_gpa: 3
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 14
+  fields:
+    gpa_status: Good Standing(Prev Prob)
+    max_gpa: 3.5
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 15
+  fields:
+    gpa_status: Good Standing(Prev Prob)
+    max_gpa: 4.0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 16
+  fields:
+    gpa_status: Good Standing
+    max_gpa: n/a
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 17
+  fields:
+    gpa_status: Good Standing
+    max_gpa: 0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 18
+  fields:
+    gpa_status: Good Standing
+    max_gpa: 3
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 19
+  fields:
+    gpa_status: Good Standing
+    max_gpa: 3.5
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 20
+  fields:
+    gpa_status: Good Standing
+    max_gpa: 4.0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 21
+  fields:
+    gpa_status: Inactive-GPA Def
+    max_gpa: n/a
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 22
+  fields:
+    gpa_status: Inactive-GPA Def
+    max_gpa: 0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 23
+  fields:
+    gpa_status: Inactive-GPA Def
+    max_gpa: 3
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 24
+  fields:
+    gpa_status: Inactive-GPA Def
+    max_gpa: 3.5
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 25
+  fields:
+    gpa_status: Inactive-GPA Def
+    max_gpa: 4.0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 26
+  fields:
+    gpa_status: Stay on Grace Period-GPA Def
+    max_gpa: n/a
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 27
+  fields:
+    gpa_status: Stay on Grace Period-GPA Def
+    max_gpa: 0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 28
+  fields:
+    gpa_status: Stay on Grace Period-GPA Def
+    max_gpa: 3
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 29
+  fields:
+    gpa_status: Stay on Grace Period-GPA Def
+    max_gpa: 3.5
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 30
+  fields:
+    gpa_status: Stay on Grace Period-GPA Def
+    max_gpa: 4.0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 31
+  fields:
+    gpa_status: Stay on Grace Period-GPA Ok
+    max_gpa: n/a
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 32
+  fields:
+    gpa_status: Stay on Grace Period-GPA Ok
+    max_gpa: 0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 33
+  fields:
+    gpa_status: Stay on Grace Period-GPA Ok
+    max_gpa: 3
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 34
+  fields:
+    gpa_status: Stay on Grace Period-GPA Ok
+    max_gpa: 3.5
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 35
+  fields:
+    gpa_status: Stay on Grace Period-GPA Ok
+    max_gpa: 4.0
+    status: n/a
+- model: eh_app.ProbDefStatus
+  pk: 36
+  fields:
+    gpa_status: Probation-GPA Def
+    max_gpa: n/a
+    status: Leave-Prob
+- model: eh_app.ProbDefStatus
+  pk: 37
+  fields:
+    gpa_status: Probation-GPA Def
+    max_gpa: 0
+    status: Leave-Prob
+- model: eh_app.ProbDefStatus
+  pk: 38
+  fields:
+    gpa_status: Probation-GPA Def
+    max_gpa: 3
+    status: Leave-Prob
+- model: eh_app.ProbDefStatus
+  pk: 39
+  fields:
+    gpa_status: Probation-GPA Def
+    max_gpa: 3.5
+    status: Stay-Prob
+- model: eh_app.ProbDefStatus
+  pk: 40
+  fields:
+    gpa_status: Probation-GPA Def
+    max_gpa: 4.0
+    status: Stay-Prob

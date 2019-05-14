@@ -1,0 +1,79 @@
+{% extends 'eh_app/top-bar.html' %}
+
+{% block content %}
+
+    {% if user.is_authenticated %}
+	<div class ="search">
+	</div>
+	<div class = centered_text>See Student List</div>
+	<div class = 'filter_form'>
+		<form action="{% url 'student_list' %}" method="post">
+			{% csrf_token %}
+			{{ form }}
+		<div class = "bottom_row">
+			<button type = "button" class="btn btn-primary" value="select_all"> Select All </button>
+			<button type = "button" class="btn btn-primary" value="deselect_all"> Deselect All </button>
+			<input type="submit" class="btn btn-primary" value="Submit">
+		</div>
+		</form>
+	</div>
+	<div class= 'complete_list'>
+      <button class="btn btn-primary"><a href="{% url 'student_list' %}">See complete student list</a></button>
+	</div>
+	{% if user.is_superuser %}
+		<div class = "complete_list" ><button class="btn btn-primary"><a href="{% url 'admin:index' %}">Admin Page</a></button><div>
+	{% endif %}
+    <!------- SETTINGS BUTTON DOES NOTHING RIGHT NOW<div class="row"> <br>
+      <button class="btn btn-primary"><a href="#">Settings</a></button>
+    </div> ------->
+    {% else %}
+    <div class = "centered_text">Please log in to continue</div>
+    {% endif %}
+
+	<script>
+	$(document).ready(function(){
+		$("input[class='filter_options']").each(function(index) {
+				if ($(this).is(':checked'))
+				{
+					$("label[for='" + $(this).attr("id") + "']").addClass("filter_options_active");
+
+				}
+				else
+				{
+					$("label[for='" + $(this).attr("id") + "']").removeClass("filter_options_active");
+
+				}
+			});
+
+		$("input[type='checkbox']").change(function() {
+			if ($(this).is(':checked'))
+				{
+					$("label[for='" + $(this).attr("id") + "']").addClass("filter_options_active");
+					$(this).prop("checked",true);
+				}
+				else
+				{
+					$("label[for='" + $(this).attr("id") + "']").removeClass("filter_options_active");
+					$(this).prop("checked",false);
+				}
+
+		});
+
+
+
+		$("button[value='deselect_all']").click(function() {
+			$("input[class='filter_options']").each(function(index) {
+				$(this).prop("checked",false);
+				$("label[for='" + $(this).attr("id") + "']").removeClass("filter_options_active");
+			});
+		});
+
+		$("button[value='select_all']").click(function() {
+			$("input[class='filter_options']").each(function(index) {
+				$(this).prop("checked",true);
+				$("label[for='" + $(this).attr("id") + "']").addClass("filter_options_active");
+			});
+		});
+	});
+	</script>
+{% endblock %}

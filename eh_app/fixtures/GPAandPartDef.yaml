@@ -1,0 +1,176 @@
+# Code to gpa deficiency table
+- model: eh_app.GPAandPartStatus
+  pk: 29
+  fields:
+    gpa_status: n/a
+    participation_status: n/a
+    status: n/a
+
+- model: eh_app.GPAandPartStatus
+  pk: 1
+  fields:
+    gpa_status: Dismiss-GPA Def
+    participation_status: 1-dismiss
+    status: Dismiss-GPA&Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 2
+  fields:
+    gpa_status: Good Standing(Prev Prob)
+    participation_status: 1-dismiss
+    status: Dismiss-GPA Ok(PP)-Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 3
+  fields:
+    gpa_status: Good Standing
+    participation_status: 1-dismiss
+    status: Dismiss-GPA Ok-Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 4
+  fields:
+    gpa_status: Probation-GPA Def
+    participation_status: 1-dismiss
+    status: Probation-GPA Def&Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 5
+  fields:
+    gpa_status: Stay on Grace Period-GPA Def
+    participation_status: 1-dismiss
+    status: Stay(Grace Period)-GPA Def&Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 6
+  fields:
+    gpa_status: Stay on Grace Period-GPA Ok
+    participation_status: 1-dismiss
+    status: Stay(Grace Period)-GPA Ok&Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 7
+  fields:
+    gpa_status: Inactive-GPA Def
+    participation_status: 1-dismiss
+    status: Stay(Inactive)-GPA Def&Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 8
+  fields:
+    gpa_status: Dismiss-GPA Def
+    participation_status: 2-option of dismissal or probation
+    status: Dismiss-GPA Def
+- model: eh_app.GPAandPartStatus
+  pk: 9
+  fields:
+    gpa_status: Good Standing(Prev Prob)
+    participation_status: 2-option of dismissal or probation
+    status: Prob w/ IP or dismiss w/o IP-GPA Ok(PP)-Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 10
+  fields:
+    gpa_status: Good Standing
+    participation_status: 2-option of dismissal or probation
+    status: Prob w/ IP or dismiss w/o IP-GPA Ok-Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 11
+  fields:
+    gpa_status: Probation-GPA Def
+    participation_status: 2-option of dismissal or probation
+    status: Probation-GPA Def
+- model: eh_app.GPAandPartStatus
+  pk: 12
+  fields:
+    gpa_status: Stay on Grace Period-GPA Def
+    participation_status: 2-option of dismissal or probation
+    status: Stay(Grace Period)-GPA Def
+- model: eh_app.GPAandPartStatus
+  pk: 13
+  fields:
+    gpa_status: Stay on Grace Period-GPA Ok
+    participation_status: 2-option of dismissal or probation
+    status: Stay(Grace Period)-GPA Ok&Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 14
+  fields:
+    gpa_status: Inactive-GPA Def
+    participation_status: 2-option of dismissal or probation
+    status: Stay(Inactive)-GPA Def
+- model: eh_app.GPAandPartStatus
+  pk: 15
+  fields:
+    gpa_status: Dismiss-GPA Def
+    participation_status: 3-option of probation  or GS
+    status: Dismiss-GPA Def
+- model: eh_app.GPAandPartStatus
+  pk: 16
+  fields:
+    gpa_status: Good Standing(Prev Prob)
+    participation_status: 3-option of probation  or GS
+    status: Good Standing w/IP or Prob w/o IP-GPA Ok(PP)-Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 17
+  fields:
+    gpa_status: Good Standing
+    participation_status: 3-option of probation  or GS
+    status: Good Standing w/IP or Prob w/o IP-GPA Ok-Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 18
+  fields:
+    gpa_status: Probation-GPA Def
+    participation_status: 3-option of probation  or GS
+    status: Probation-GPA Def
+- model: eh_app.GPAandPartStatus
+  pk: 19
+  fields:
+    gpa_status: Stay on Grace Period-GPA Def
+    participation_status: 3-option of probation  or GS
+    status: Stay(Grace Period)-GPA Def
+- model: eh_app.GPAandPartStatus
+  pk: 20
+  fields:
+    gpa_status: Stay on Grace Period-GPA Ok
+    participation_status: 3-option of probation  or GS
+    status: Stay(Grace Period)-GPA Ok&Participation Def
+- model: eh_app.GPAandPartStatus
+  pk: 21
+  fields:
+    gpa_status: Inactive-GPA Def
+    participation_status: 3-option of probation  or GS
+    status: Stay(Inactive)-GPA Def
+- model: eh_app.GPAandPartStatus
+  pk: 22
+  fields:
+    gpa_status: Dismiss-GPA Def
+    participation_status: 4-GS
+    status: Dismiss-GPA Def-Participation Ok
+- model: eh_app.GPAandPartStatus
+  pk: 23
+  fields:
+    gpa_status: Good Standing(Prev Prob)
+    participation_status: 4-GS
+    status: Good standing(Prev Prob)-None
+- model: eh_app.GPAandPartStatus
+  pk: 24
+  fields:
+    gpa_status: Good Standing
+    participation_status: 4-GS
+    status: Good standing-None
+- model: eh_app.GPAandPartStatus
+  pk: 25
+  fields:
+    gpa_status: Probation-GPA Def
+    participation_status: 4-GS
+    status: Probation-GPA Def-Participation Ok
+- model: eh_app.GPAandPartStatus
+  pk: 26
+  fields:
+    gpa_status: Stay on Grace Period-GPA Def
+    participation_status: 4-GS
+    status: Stay(Grace Period)-GPA Def-Participation Ok
+- model: eh_app.GPAandPartStatus
+  pk: 27
+  fields:
+    gpa_status: Stay on Grace Period-GPA Ok
+    participation_status: 4-GS
+    status: Good standing-None
+- model: eh_app.GPAandPartStatus
+  pk: 28
+  fields:
+    gpa_status: Inactive-GPA Def
+    participation_status: 4-GS
+    status: Stay(Inactive)-GPA Def-Participation Ok

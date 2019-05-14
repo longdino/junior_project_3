@@ -1,0 +1,51 @@
+- model: eh_app.Exception
+  fields:
+    name: Admitted After 12th day
+- model: eh_app.Exception
+  fields:
+    name: Co-Op
+- model: eh_app.Exception
+  fields:
+    name: Galveston Campus
+- model: eh_app.Exception
+  fields:
+    name: Internship
+- model: eh_app.Exception
+  fields:
+    name: ECOS Coach
+- model: eh_app.Exception
+  fields:
+    name: ECOS Fellow
+- model: eh_app.Exception
+  fields:
+    name: Ambassador
+- model: eh_app.Exception
+  fields:
+    name: Excom
+- model: eh_app.Exception
+  fields:
+    name: Family Leave
+- model: eh_app.Exception
+  fields:
+    name: Medical Leave
+- model: eh_app.Exception
+  fields:
+    name: taking the semester off
+- model: eh_app.Exception
+  fields:
+    name: Not in ecampus and cohort
+- model: eh_app.Exception
+  fields:
+    name: Missionary work
+- model: eh_app.Exception
+  fields:
+    name: Study abroad
+- model: eh_app.Exception
+  fields:
+    name: Not in EH
+- model: eh_app.Exception
+  fields:
+    name: unknown
+- model: eh_app.Exception
+  fields:
+    name: Withdrew

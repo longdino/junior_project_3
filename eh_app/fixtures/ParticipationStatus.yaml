@@ -1,0 +1,729 @@
+- model: eh_app.ParticipationStatus
+  pk: 81
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: n/a
+- model: eh_app.ParticipationStatus
+  pk: 1
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: 1-dismiss
+- model: eh_app.ParticipationStatus
+  pk: 2
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: on track
+    advising_requirement_rating: serious
+    status: 1-dismiss
+- model: eh_app.ParticipationStatus
+  pk: 3
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 4
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: on track
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 5
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: on track
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 6
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 7
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: minor
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 8
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: minor
+    annual_report_rating: on track
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 9
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: minor
+    annual_report_rating: serious
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 10
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: minor
+    annual_report_rating: on track
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 11
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: minor
+    annual_report_rating: on track
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 12
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: minor
+    annual_report_rating: serious
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 13
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: on track
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 14
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: on track
+    annual_report_rating: on track
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 15
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: on track
+    annual_report_rating: serious
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 16
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: on track
+    annual_report_rating: on track
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 17
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: on track
+    annual_report_rating: on track
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 18
+  fields:
+    season: spring
+    honors_credit_rating: serious
+    activity_requirement_rating: on track
+    annual_report_rating: serious
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 19
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 20
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: serious
+    annual_report_rating: on track
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 21
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 22
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 23
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: serious
+    annual_report_rating: on track
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 24
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 25
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: serious
+    annual_report_rating: on track
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 26
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: serious
+    annual_report_rating: on track
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 27
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 28
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: serious
+    annual_report_rating: serious
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 29
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: serious
+    annual_report_rating: on track
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 30
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: serious
+    annual_report_rating: on track
+    advising_requirement_rating: on track
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 31
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: minor
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 32
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: minor
+    annual_report_rating: on track
+    advising_requirement_rating: serious
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 33
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: minor
+    annual_report_rating: serious
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 34
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: minor
+    annual_report_rating: on track
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 35
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: minor
+    annual_report_rating: on track
+    advising_requirement_rating: on track
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 36
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: minor
+    annual_report_rating: serious
+    advising_requirement_rating: on track
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 37
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: on track
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 38
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: on track
+    annual_report_rating: on track
+    advising_requirement_rating: serious
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 39
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: on track
+    annual_report_rating: serious
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 40
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: on track
+    annual_report_rating: ontrack
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 41
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: on track
+    annual_report_rating: serious
+    advising_requirement_rating: on track
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 42
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: minor
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: 3-option of probation or GS
+
+- model: eh_app.ParticipationStatus
+  pk: 43
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: minor
+    annual_report_rating: on track
+    advising_requirement_rating: serious
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 44
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: minor
+    annual_report_rating: serious
+    advising_requirement_rating: minor
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 45
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: minor
+    annual_report_rating: on track
+    advising_requirement_rating: minor
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 46
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: minor
+    annual_report_rating: on track
+    advising_requirement_rating: on track
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 47
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: minor
+    annual_report_rating: serious
+    advising_requirement_rating: on track
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 48
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: on track
+    annual_report_rating: serious
+    advising_requirement_rating: serious
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 49
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: on track
+    annual_report_rating: on track
+    advising_requirement_rating: serious
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 50
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: on track
+    annual_report_rating: serious
+    advising_requirement_rating: minor
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 51
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: on track
+    annual_report_rating: on track
+    advising_requirement_rating: minor
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 52
+  fields:
+    honors_credit_rating: on track
+    activity_requirement_rating: on track
+    annual_report_rating: serious
+    advising_requirement_rating: on track
+    status: 3-option of probation  or GS
+- model: eh_app.ParticipationStatus
+  pk: 53
+  fields:
+    season: spring
+    honors_credit_rating: minor
+    activity_requirement_rating: on track
+    annual_report_rating: on track
+    advising_requirement_rating: on track
+    status: 4-GS
+- model: eh_app.ParticipationStatus
+  pk: 54
+  fields:
+    season: spring
+    honors_credit_rating: on track
+    activity_requirement_rating: on track
+    annual_report_rating: on track
+    advising_requirement_rating: on track
+    status: 4-GS
+- model: eh_app.ParticipationStatus
+  pk: 55
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: none
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 56
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: none
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 57
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: serious
+    annual_report_rating: none
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 58
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: minor
+    annual_report_rating: none
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 59
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: minor
+    annual_report_rating: none
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 60
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: minor
+    annual_report_rating: none
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 61
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: on track
+    annual_report_rating: none
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 62
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: on track
+    annual_report_rating: none
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 63
+  fields:
+    season: fall
+    honors_credit_rating: serious
+    activity_requirement_rating: on track
+    annual_report_rating: none
+    advising_requirement_rating: on track
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 64
+  fields:
+    season: fall
+    honors_credit_rating: minor
+    activity_requirement_rating: serious
+    annual_report_rating: none
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 65
+  fields:
+    season: fall
+    honors_credit_rating: minor
+    activity_requirement_rating: serious
+    annual_report_rating: none
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 66
+  fields:
+    season: fall
+    honors_credit_rating: on track
+    activity_requirement_rating: serious
+    annual_report_rating: none
+    advising_requirement_rating: serious
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 67
+  fields:
+    season: fall
+    honors_credit_rating: on track
+    activity_requirement_rating: serious
+    annual_report_rating: none
+    advising_requirement_rating: minor
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 68
+  fields:
+    season: fall
+    honors_credit_rating: on track
+    activity_requirement_rating: serious
+    annual_report_rating: none
+    advising_requirement_rating: on track
+    status: 2-option of dismissal or probation
+- model: eh_app.ParticipationStatus
+  pk: 69
+  fields:
+    season: fall
+    honors_credit_rating: minor
+    activity_requirement_rating: serious
+    annual_report_rating: none
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 70
+  fields:
+    season: fall
+    honors_credit_rating: minor
+    activity_requirement_rating: minor
+    annual_report_rating: none
+    advising_requirement_rating: serious
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 71
+  fields:
+    season: fall
+    honors_credit_rating: minor
+    activity_requirement_rating: minor
+    annual_report_rating: none
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 72
+  fields:
+    season: fall
+    honors_credit_rating: minor
+    activity_requirement_rating: minor
+    annual_report_rating: none
+    advising_requirement_rating: on track
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 73
+  fields:
+    season: fall
+    honors_credit_rating: minor
+    activity_requirement_rating: on track
+    annual_report_rating: none
+    advising_requirement_rating: serious
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 74
+  fields:
+    season: fall
+    honors_credit_rating: minor
+    activity_requirement_rating: on track
+    annual_report_rating: none
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 75
+  fields:
+    season: fall
+    honors_credit_rating: minor
+    activity_requirement_rating: on track
+    annual_report_rating: none
+    advising_requirement_rating: on track
+    status: 4-GS
+- model: eh_app.ParticipationStatus
+  pk: 76
+  fields:
+    season: fall
+    honors_credit_rating: on track
+    activity_requirement_rating: minor
+    annual_report_rating: none
+    advising_requirement_rating: serious
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 77
+  fields:
+    season: fall
+    honors_credit_rating: on track
+    activity_requirement_rating: minor
+    annual_report_rating: none
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 78
+  fields:
+    season: fall
+    honors_credit_rating: on track
+    activity_requirement_rating: minor
+    annual_report_rating: none
+    advising_requirement_rating: on track
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 79
+  fields:
+    season: fall
+    honors_credit_rating: on track
+    activity_requirement_rating: on track
+    annual_report_rating: none
+    advising_requirement_rating: serious
+    status: 3-option of probation or GS
+- model: eh_app.ParticipationStatus
+  pk: 80
+  fields:
+    season: fall
+    honors_credit_rating: on track
+    activity_requirement_rating: on track
+    annual_report_rating: none
+    advising_requirement_rating: minor
+    status: 3-option of probation or GS

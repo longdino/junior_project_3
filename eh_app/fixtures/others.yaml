@@ -1,0 +1,32 @@
+- model: eh_app.Teacher
+  fields:
+    uin: 0
+    first_name: TBD
+    middle_name: TBD
+    last_name: TBD
+- model: eh_app.Advisor
+  fields:
+    uin: 0
+    first_name: TBD
+    middle_name: TBD
+    last_name: TBD
+
+- model: eh_app.Campus
+  fields:
+    name: CS
+    description: College Station
+
+- model: eh_app.Campus
+  fields:
+    name: GV
+    description: Galveston
+
+- model: eh_app.Campus
+  fields:
+    name: QT
+    description: Qatar
+
+- model: eh_app.Campus
+  fields:
+    name: ABR
+    description: Study Abroad

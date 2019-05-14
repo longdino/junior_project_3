@@ -1,0 +1,358 @@
+# Code
+- model: eh_app.EmailTemplate
+  pk: 71
+  fields:
+    response: n/a
+    default_status: n/a
+# After spring
+- model: eh_app.EmailTemplate
+  pk: 1
+  fields:
+    response: Fall-Dismiss-GPADef-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 2
+  fields:
+    response: Fall-Dismiss-GPADef-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 3
+  fields:
+    response: Fall-Dismiss-GPADef-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 4
+  fields:
+    response: Fall-Dismiss-GPADef-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 5
+  fields:
+    response: Fall-Dismiss-GPADef-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 6
+  fields:
+    response: Fall-Dismiss-GPAOK-PrtcptnOK
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 7
+  fields:
+    response: Fall-Dismiss-GPAOK-PrtcptnOK
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 8
+  fields:
+    response: Fall-Dismiss-GPAOK-PrtcptnOK
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 9
+  fields:
+    response: Fall-Dismiss-GPAOK-PrtcptnOK
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 10
+  fields:
+    response: Fall-Prob-GPADef-PrtcptnDef-Leave-Prob
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 11
+  fields:
+    response: Fall-Prob-GPADef-PrtcptnDef-Leave-Prob
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 12
+  fields:
+    response: Fall-Prob-GPADef-PrtcptnDef-Stay-Prob
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 13
+  fields:
+    response: Fall-Prob-GPADef-PrtcptnDef-Stay-Prob
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 14
+  fields:
+    response: Fall-Prob-GPADef-PrtcptnDef-Stay-Prob
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 15
+  fields:
+    response: Fall-Prob-GPADef-PrtcptnOK-Leave-Prob
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 16
+  fields:
+    response: Fall-Prob-GPADef-PrtcptnOK-Stay-Prob
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 17
+  fields:
+    response: Fall-InDangerDism-GPADef-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 18
+  fields:
+    response: Fall-InDangerDism-GPADef-PrtcptnOK
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 19
+  fields:
+    response: Fall-InDangerDism-GPAOK-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 20
+  fields:
+    response: Fall-InDangerDism-GPAOK-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 21
+  fields:
+    response: Fall-Prob-GPAOK-PrtcptnDef
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 22
+  fields:
+    response: Fall-Prob-GPAOK-PrtcptnDef
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 23
+  fields:
+    response: Fall-InDangerProb-GPAOK-PrtcptnDef
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 24
+  fields:
+    response: Fall-InDangerProb-GPAOK-PrtcptnDef
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 25
+  fields:
+    response: Fall-GS-GPAOK-RemindParticipate
+    default_status: Good Standing
+- model: eh_app.EmailTemplate
+  pk: 26
+  fields:
+    response: Fall-GS-GPAOK-RemindParticipate
+    default_status: Good Standing
+- model: eh_app.EmailTemplate
+  pk: 27
+  fields:
+    response: Fall-GS-GPAOK(PP)-PrtcptnOK
+    default_status: Good Standing #TODO: asks "Prev Prob"
+- model: eh_app.EmailTemplate
+  pk: 28
+  fields:
+    response: Fall-GS-GPAOK-PrtcptnOK
+    default_status: Good Standing
+- model: eh_app.EmailTemplate
+  pk: 29
+  fields:
+    response: Fall-Stay(Inactive)-GPADef-PrtcptnDef
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 30
+  fields:
+    response: Fall-Stay(Inactive)-GPADef-PrtcptnDef
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 31
+  fields:
+    response: Fall-Stay(Inactive)-GPADef-PrtcptnOK
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 32
+  fields:
+    response: Fall-StayGP-GPADef-PrtcptnDef
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 33
+  fields:
+    response: Fall-StayGP-GPADef-PrtcptnDef
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 34
+  fields:
+    response: Fall-StayGP-GPADef-PrtcptnOK 
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 35
+  fields:
+    response: Fall-StayGP-GPAOK-PrtcptnDef
+    default_status: fill in #TODO: needs to be edited later
+#After Fall
+- model: eh_app.EmailTemplate
+  pk: 36
+  fields:
+    response: Spring-Leave-GPADef-PrtcptnDef
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 37
+  fields:
+    response: Spring-Dismiss-GPADef-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 38
+  fields:
+    response: Spring-Dismiss-GPADef-PrtcptnOK
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 39
+  fields:
+    response: Spring-Dismiss-GPADef-PrtcptnOK
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 40
+  fields:
+    response: Spring-Dismiss-GPADef-PrtcptnOK
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 41
+  fields:
+    response: Spring-Dismiss-GPAOK-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 42
+  fields:
+    response: Spring-Dismiss-GPAOK-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 43
+  fields:
+    response: Spring-Dismiss-GPAOK-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 44
+  fields:
+    response: Spring-Dismiss-GPAOK-PrtcptnOK
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 45
+  fields:
+    response: Spring-Prob-GPADef-PrtcptnDef-Leave-Prob
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 46
+  fields:
+    response: Spring-Prob-GPADef-PrtcptnDef-Leave-Prob
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 47
+  fields:
+    response: Spring-Prob-GPADef-PrtcptnDef-Stay-Prob
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 48
+  fields:
+    response: Spring-Prob-GPADef-PrtcptnDef-Stay-Prob
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 49
+  fields:
+    response: Spring-Prob-GPADef-PrtcptnDef-Stay-Prob
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 50
+  fields:
+    response: Spring-Prob-GPADef-PrtcptnOK-Leave-Prob
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 51
+  fields:
+    response: Spring-Prob-GPADef-PrtcptnOK-Stay-Prob
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 52
+  fields:
+    response: Spring-InDangerDism-GPADef-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 53
+  fields:
+    response: SPRING-Probation-GPADef-PrtcptnOK
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 54
+  fields:
+    response: Spring-InDangerDism-GPAOK-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 55
+  fields:
+    response: Spring-InDangerDism-GPAOK-PrtcptnDef
+    default_status: Dismiss
+- model: eh_app.EmailTemplate
+  pk: 56
+  fields:
+    response: Spring-Prob-GPAOK-PrtcptnDef
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 57
+  fields:
+    response: Spring-Prob-GPAOK-PrtcptnDef
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 58
+  fields:
+    response: Spring-InDangerProb-GPAOK-PrtcptnDef
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 59
+  fields:
+    response: Spring-InDangerProb-GPAOK-PrtcptnDef
+    default_status: Probation
+- model: eh_app.EmailTemplate
+  pk: 60
+  fields:
+    response: Spring-GS-GPAOK-RemindParticipate
+    default_status: Good Standing
+- model: eh_app.EmailTemplate
+  pk: 61
+  fields:
+    response: Spring-GS-GPAOK-RemindParticipate
+    default_status: Good Standing
+- model: eh_app.EmailTemplate
+  pk: 62
+  fields:
+    response: Spring-GS-GPAOK(PP)-PrtcptnOK
+    default_status: Good Standing #TODO: asks Prev Prob
+- model: eh_app.EmailTemplate
+  pk: 63
+  fields:
+    response: Spring-GS-GPAOK-PrtcptnOK
+    default_status: Good Standing
+- model: eh_app.EmailTemplate
+  pk: 64
+  fields:
+    response: Spring-Stay(Inactive)-GPADef-PrtcptnDef
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 65
+  fields:
+    response: Spring-Stay(Inactive)-GPADef-PrtcptnDef
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 66
+  fields:
+    response: Spring-Stay(Inactive)-GPADef-PrtcptnOK
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 67
+  fields:
+    response: Spring-StayGP-GPADef-PrtcptnDef
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 68
+  fields:
+    response: Spring-StayGP-GPADef-PrtcptnDef
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 69
+  fields:
+    response: Spring-StayGP-GPADef-PrtcptnOK
+    default_status: Stay
+- model: eh_app.EmailTemplate
+  pk: 70
+  fields:
+    response: Spring-StayGP-GPAOK-PrtcptnDef
+    default_status: Stay

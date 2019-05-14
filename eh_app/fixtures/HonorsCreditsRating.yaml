@@ -1,0 +1,30 @@
+- model: eh_app.HonorsCreditHoursRating
+  pk: 1
+  fields:
+    hours_needed_per_sem: -53
+    rating: on track
+- model: eh_app.HonorsCreditHoursRating
+  pk: 2
+  fields:
+    hours_needed_per_sem: -10
+    rating: on track
+- model: eh_app.HonorsCreditHoursRating
+  pk: 3
+  fields:
+    hours_needed_per_sem: 3
+    rating: on track
+- model: eh_app.HonorsCreditHoursRating
+  pk: 4
+  fields:
+    hours_needed_per_sem: 3.1
+    rating: minor
+- model: eh_app.HonorsCreditHoursRating
+  pk: 5
+  fields:
+    hours_needed_per_sem: 6
+    rating: serious
+- model: eh_app.HonorsCreditHoursRating
+  pk: 6
+  fields:
+    hours_needed_per_sem: 80
+    rating: serious

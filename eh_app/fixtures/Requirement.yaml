@@ -1,0 +1,20 @@
+- model: eh_app.Requirement
+  fields:
+    code: Activity
+    description: Activity Attendance
+- model: eh_app.Requirement
+  fields:
+    code: AdvMtg
+    description: Advisor Meeting
+- model: eh_app.Requirement
+  fields:
+    code: AnnualRpt
+    description: Annual Report
+- model: eh_app.Requirement
+  fields:
+    code: cumgpa
+    description: Cumulative GPA of at least 3.5
+- model: eh_app.Requirement
+  fields:
+    code: honorhrs
+    description: At least 18 honors credits in courses offered by Engineering or Science

@@ -1,0 +1,51 @@
+- model: eh_app.Department
+  fields:
+    name: AERO
+- model: eh_app.Department
+  fields:
+    name: BAEN
+- model: eh_app.Department
+  fields:
+    name: BMEN
+- model: eh_app.Department
+  fields:
+    name: CHEN
+- model: eh_app.Department
+  fields:
+    name: CLEN
+- model: eh_app.Department
+  fields:
+    name: CLEN-GV
+- model: eh_app.Department
+  fields:
+    name: CVEN
+- model: eh_app.Department
+  fields:
+    name: CSCE
+- model: eh_app.Department
+  fields:
+    name: ECEN
+- model: eh_app.Department
+  fields:
+    name: ETID
+- model: eh_app.Department
+  fields:
+    name: ISEN
+- model: eh_app.Department
+  fields:
+    name: ITDE
+- model: eh_app.Department
+  fields:
+    name: MEEN
+- model: eh_app.Department
+  fields:
+    name: MSEN
+- model: eh_app.Department
+  fields:
+    name: NUEN
+- model: eh_app.Department
+  fields:
+    name: OCEN
+- model: eh_app.Department
+  fields:
+    name: PETE

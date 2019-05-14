@@ -1,0 +1,442 @@
+- model: eh_app.Activity
+  pk: 1 # This is the primary key. Either id or first field if not there
+  fields:
+    date: 2019-2-18
+    location: ETB room 2001
+    details: Lecture by Prof. Pauline Wade
+    semester: 201911 # Relates to primary key of the related element
+- model: eh_app.Activity
+  pk: 2
+  fields:
+    date: 2019-3-5
+    location: ZACH room 316
+    details: Semina by Prof. Jennifer Welch
+    semester: 201911
+
+- model: eh_app.Advisor
+  fields:
+    uin: 125003892
+    first_name: Rachel
+    last_name: Johnson
+    track: 6 # Relates to primary key of the Track
+- model: eh_app.Advisor
+  fields:
+    uin: 342001234
+    first_name: Joseph
+    last_name: Korr
+    track: 6 # Relates to primary key of the Track
+
+- model: eh_app.Campus
+  fields:
+    name: CS
+    description: College Station
+
+- model: eh_app.College
+  fields:
+    name: EN
+
+- model: eh_app.Course
+  pk: 1
+  fields:
+    number: 431
+    title: Software Engineering
+    credits: 3
+
+    #Relation
+    department: CSCE
+
+- model: eh_app.Major
+  fields:
+    name: CPSC
+    concentration:
+    #Relation
+    track: 6
+    department: CSCE
+- model: eh_app.Major
+  fields:
+    name: CEEN
+    #Relation
+    track: 6
+    department: CSCE
+- model: eh_app.Major
+  fields:
+    name: CLEN
+    #Relation
+    track: 5
+    department: CLEN
+
+- model: eh_app.Research
+  pk: 1
+  fields:
+    program: Creating monkeys
+    details: Creating monkeys from thin air. Very promising.
+    advisor: 125003892
+    track: 6
+
+- model: eh_app.Section
+  pk: 1
+  fields:
+    crn: 15029
+    number: 503
+    level: UG
+    course: 1
+    teachers: [123004567]
+    semester: 201911
+    campus: CS
+    eh: True
+- model: eh_app.Section
+  pk: 2
+  fields:
+    crn: 14035
+    number: 501
+    level: UG
+    course: 1
+    teachers: [123004567]
+    semester: 201911
+    campus: CS
+    eh: True
+
+- model: eh_app.Semester
+  fields:
+    id: 202211
+    semester: Spring
+    academic_year: 2021-2022
+- model: eh_app.Semester
+  fields:
+    id: 201911
+    current: True
+    semester: Spring
+    academic_year: 2018-2019
+- model: eh_app.Semester
+  fields:
+    id: 201831
+    semester: Fall
+    academic_year: 2018-2019
+    successor: 201911
+- model: eh_app.Semester
+  fields:
+    id: 201811
+    semester: Spring
+    academic_year: 2017-2018
+    successor: 201831
+- model: eh_app.Semester
+  fields:
+    id: 201731
+    semester: Fall
+    academic_year: 2017-2018
+    successor: 201811
+- model: eh_app.Semester
+  fields:
+    id: 200131
+    semester: Fall
+    academic_year: 2001-2002
+    successor: 201731
+
+- model: eh_app.Student
+  fields:
+    uin: 218009384
+    first_name: Henry
+    last_name: Deng
+    email: henrydeng@tamu.edu
+    # Relations
+    majors: [CPSC]
+    track: 6
+    first_tamu_semester: 201831
+    first_eh_semester: 201831
+    graduation_semester: 202211
+- model: eh_app.Student
+  fields:
+    uin: 358003821
+    first_name: Lydia
+    last_name: Lee
+    email: lylee@tamu.edu
+    # Relations
+    majors: [CEEN]
+    track: 6
+    first_tamu_semester: 201831
+    first_eh_semester: 201831
+    graduation_semester: 202211
+- model: eh_app.Student
+  fields:
+    uin: 329003124
+    first_name: John
+    last_name: Lee
+    email: John@tamu.edu
+    # Relations
+    majors: [CPSC]
+    first_tamu_semester: 201811
+    first_eh_semester: 201811
+    graduation_semester: 202211
+- model: eh_app.Student
+  fields:
+    uin: 987001241
+    first_name: Wes
+    last_name: Hampton
+    email: wham@tamu.edu
+    # Relations
+    majors: [CEEN]
+    first_tamu_semester: 201731
+    first_eh_semester: 201811
+    graduation_semester: 202211
+- model: eh_app.Student
+  fields:
+    uin: 402009991
+    first_name: Future
+    last_name: Student
+    email: Future@tamu.edu
+    # Relations
+    majors: [CEEN]
+    first_tamu_semester: 202211
+    first_eh_semester: 202211
+    graduation_semester: 202211
+- model: eh_app.Student
+  fields:
+    uin: 125001293
+    first_name: Claire
+    last_name: Johnson
+    email: cljohnson@tamu.edu
+    # Relations
+    majors: [CPSC]
+    track: 6
+    first_tamu_semester: 201831
+    first_eh_semester: 201831
+    graduation_semester: 202211
+- model: eh_app.Student
+  fields:
+    uin: 445002134
+    first_name: Ella
+    last_name: Guild
+    email: ellaguild@tamu.edu
+    # Relations
+    majors: [CPSC]
+    track: 6
+    first_tamu_semester: 201831
+    first_eh_semester: 201831
+    graduation_semester: 202211
+
+- model: eh_app.StudentAdvisorMeeting
+  pk: 1
+  fields:
+    date: 2019-2-1
+    details: Meeting with the advisor of their track
+    student: 218009384
+    advisor: 125003892
+    semester: 201911
+- model: eh_app.StudentAdvisorMeeting
+  pk: 2
+  fields:
+    date: 2019-2-3
+    details: Meeting with the advisor of their track
+    student: 358003821
+    advisor: 125003892
+    semester: 201911
+- model: eh_app.StudentAdvisorMeeting
+  pk: 3
+  fields:
+    date: 2019-2-3
+    details: Meeting with the advisor of their track
+    student: 329003124
+    advisor: 125003892
+    semester: 201911
+
+- model: eh_app.StudentResearch
+  pk: 1
+  fields:
+    course_credit: 1
+    details: Created a tiny monkey.
+    student: 218009384
+    research: 1
+    semester: 201911
+
+- model: eh_app.StudentSectionEnrollment
+  pk: 1
+  fields:
+    grade: A
+    repeat: No
+    section: 1
+    student: 218009384
+- model: eh_app.StudentSectionEnrollment
+  pk: 2
+  fields:
+    grade: A
+    repeat: No
+    section: 1
+    student: 358003821
+- model: eh_app.StudentSectionEnrollment
+  pk: 3
+  fields:
+    grade: A
+    repeat: No
+    section: 1
+    student: 329003124
+- model: eh_app.StudentSectionEnrollment
+  pk: 4
+  fields:
+    grade: A
+    repeat: No
+    section: 2
+    student: 329003124
+
+- model: eh_app.StudentSemesterStatus
+  pk: 1
+  fields:
+    hours_attempted: 3
+    hours_earned: 3
+    hours_passed: 3
+    quality_points: 12
+    semester_gpa: 4.0
+    finalized: True
+    gpa_alone_status: 16 # Relation to GPAStatus element with pk of this number
+    prob_def_status: 4
+    email_template_status: 63
+    final_status: 27
+    student: 218009384
+    semester: 201831
+    activities_attended: []
+    advising_attended: [1]
+    annual_report: none
+- model: eh_app.StudentSemesterStatus
+  pk: 2
+  fields:
+    hours_attempted: 3
+    student: 218009384
+    semester: 201911
+    activities_attended: [1]
+    advising_attended: [1]
+    predecessor: 1
+    annual_report: complete
+- model: eh_app.StudentSemesterStatus
+  pk: 3
+  fields:
+    hours_attempted: 3
+    hours_earned: 3
+    hours_passed: 3
+    quality_points: 12
+    semester_gpa: 4.0
+    finalized: True
+    gpa_alone_status: 16 # Relation to GPAStatus element with pk of this number
+    prob_def_status: 4
+    email_template_status: 63
+    final_status: 27
+    student: 358003821
+    semester: 201831
+    activities_attended: [1]
+    advising_attended: [1]
+    annual_report: none
+    email_round: 2
+- model: eh_app.StudentSemesterStatus
+  pk: 4
+  fields:
+    hours_attempted: 3
+    hours_earned: 3
+    hours_passed: 3
+    quality_points: 12
+    semester_gpa: 4.0
+    finalized: True
+    gpa_alone_status: 16 # Relation to GPAStatus element with pk of this number
+    prob_def_status: 4
+    email_template_status: 63
+    final_status: 27
+    student: 358003821
+    semester: 201911
+    activities_attended: [1]
+    advising_attended: [1]
+    annual_report: none
+    improvement_plan_approval: approved
+    improvement_plan_complete: False
+    email_round: 3
+
+- model: eh_app.StudentSemesterStatus
+  pk: 5
+  fields:
+    hours_attempted: 3
+    hours_earned: 3
+    hours_passed: 3
+    quality_points: 12
+    semester_gpa: 4.0
+    finalized: True
+    gpa_alone_status: 16 # Relation to GPAStatus element with pk of this number
+    prob_def_status: 4
+    email_template_status: 63
+    final_status: 27
+    student: 125001293
+    semester: 201911
+    activities_attended: [1, 2]
+    advising_attended: [1]
+    annual_report: complete
+    improvement_plan_approval: approved
+    improvement_plan_complete: True
+- model: eh_app.StudentSemesterStatus
+  pk: 6
+  fields:
+    hours_attempted: 3
+    hours_earned: 3
+    hours_passed: 3
+    quality_points: 6
+    semester_gpa: 2.0
+    finalized: True
+    gpa_alone_status: 16 # Relation to GPAStatus element with pk of this number
+    prob_def_status: 1
+    email_template_status: 36
+    final_status: 1
+    student: 445002134
+    semester: 201911
+    activities_attended: []
+    advising_attended: []
+    annual_report: complete
+    improvement_plan_approval: disapproved
+    improvement_plan_complete: False
+
+- model: eh_app.StudentTrackEnrollment
+  pk: 1
+  fields:
+    student: 218009384
+    track: 6
+    semester: 201911
+    campus: CS
+- model: eh_app.StudentTrackEnrollment
+  pk: 2
+  fields:
+    student: 987001241
+    track: 6
+    semester: 201911
+    campus: CS
+- model: eh_app.StudentTrackEnrollment
+  pk: 3
+  fields:
+    student: 402009991
+    track: 6
+    semester: 201911
+    campus: CS
+- model: eh_app.StudentTrackEnrollment
+  pk: 4
+  fields:
+    student: 358003821
+    track: 6
+    semester: 201911
+    campus: CS
+
+- model: eh_app.Teacher
+  fields:
+    uin: 123004567
+    first_name: William
+    last_name: Shatner
+
+# - model: eh_app.Track
+#   pk: EH-CSCE
+#   fields:
+#     name: CSCE Engineering Honors
+#     semester_started: 200131
+#     # Relations
+#     requirements: 1
+#     department: CSCE
+#     college: EN
+
+# - model: eh_app.TrackRequirements
+#   pk: 1
+#   fields:
+#     advising_per_sem: 1
+#     activities_per_sem: 1
+#     description: Something once a year. You must meet with your advisor twice per academic year.
+#     # Relations
+#     requirements: ['Activity', 'AdvMtg']

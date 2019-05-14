@@ -1,0 +1,198 @@
+# Concat (Grace-Previous Status) to code table
+- model: eh_app.GPADeficiency #NOTE: Hardcoded for testing.
+  fields:
+    value: Y-Stay on Grace Period-GPA Ok
+    code: D1
+- model: eh_app.GPADeficiency
+  fields:
+    value: Y-Joined EH in 201831
+    code: D1
+- model: eh_app.GPADeficiency
+  fields:
+    value: N-Joined EH in 201831
+    code: D5
+- model: eh_app.GPADeficiency
+  fields:
+    value: Y-Stay
+    code: D1
+- model: eh_app.GPADeficiency
+  fields:
+    value: Y-Stay(Inactive)
+    code: D1
+- model: eh_app.GPADeficiency
+  fields:
+    value: Y-Stay(Grace Period)
+    code: D1
+- model: eh_app.GPADeficiency
+  fields:
+    value: Y-Good Standing
+    code: D1
+- model: eh_app.GPADeficiency
+  fields:
+    value: N-Good Standing
+    code: D2
+- model: eh_app.GPADeficiency
+  fields:
+    value: N-Stay
+    code: D3
+- model: eh_app.GPADeficiency
+  fields:
+    value: N-Stay(Inactive)
+    code: D3
+- model: eh_app.GPADeficiency
+  fields:
+    value: N-Good Standing(Prev Prob)
+    code: D4
+- model: eh_app.GPADeficiency
+  fields:
+    value: N-Probation
+    code: D4
+- model: eh_app.GPADeficiency
+  fields:
+    value: N-Joined EH in 201731
+    code: D5
+- model: eh_app.GPADeficiency
+  fields:
+    value: N-Inactive
+    code: D3
+- model: eh_app.GPADeficiency
+  fields:
+    value: Y-Joined EH in 201811
+    code: D5
+- model: eh_app.GPADeficiency
+  fields:
+    value: N-Joined EH in 201811
+    code: D5
+
+# Code to gpa deficiency table
+# 0<=>2.99
+- model: eh_app.GPAStatus
+  pk: 21
+  fields:
+    code: na
+    max_gpa: 0
+    status: n/a
+
+- model: eh_app.GPAStatus
+  pk: 1
+  fields:
+    code: D1
+    max_gpa: 0
+    status: Stay on Grace Period-GPA Def
+- model: eh_app.GPAStatus
+  pk: 2
+  fields:
+    code: D2
+    max_gpa: 0
+    status: Probation-GPA Def
+- model: eh_app.GPAStatus
+  pk: 3
+  fields:
+    code: D3
+    max_gpa: 0
+    status: Probation-GPA Def
+- model: eh_app.GPAStatus
+  pk: 4
+  fields:
+    code: D4
+    max_gpa: 0
+    status: Dismiss-GPA Def
+- model: eh_app.GPAStatus
+  pk: 5
+  fields:
+    code: D5
+    max_gpa: 0
+    status: Probation-GPA Def
+# 3<=>3.49
+- model: eh_app.GPAStatus
+  pk: 6
+  fields:
+    code: D1
+    max_gpa: 3
+    status: Stay on Grace Period-GPA Def
+- model: eh_app.GPAStatus
+  pk: 7
+  fields:
+    code: D2
+    max_gpa: 3
+    status: Probation-GPA Def
+- model: eh_app.GPAStatus
+  pk: 8
+  fields:
+    code: D3
+    max_gpa: 3
+    status: Probation-GPA Def
+- model: eh_app.GPAStatus
+  pk: 9
+  fields:
+    code: D4
+    max_gpa: 3
+    status: Dismiss-GPA Def
+- model: eh_app.GPAStatus
+  pk: 10
+  fields:
+    code: D5
+    max_gpa: 3
+    status: Probation-GPA Def
+# 3.5<=>3.99
+- model: eh_app.GPAStatus
+  pk: 11
+  fields:
+    code: D1
+    max_gpa: 3.5
+    status: Stay on Grace Period-GPA Ok
+- model: eh_app.GPAStatus
+  pk: 12
+  fields:
+    code: D2
+    max_gpa: 3.5
+    status: Good Standing
+- model: eh_app.GPAStatus
+  pk: 13
+  fields:
+    code: D3
+    max_gpa: 3.5
+    status: Good Standing
+- model: eh_app.GPAStatus
+  pk: 14
+  fields:
+    code: D4
+    max_gpa: 3.5
+    status: Good Standing(Prev Prob)
+- model: eh_app.GPAStatus
+  pk: 15
+  fields:
+    code: D5
+    max_gpa: 3.5
+    status: Good Standing
+# >=4.0
+- model: eh_app.GPAStatus
+  pk: 16
+  fields:
+    code: D1
+    max_gpa: 4
+    status: Stay on Grace Period-GPA Ok
+- model: eh_app.GPAStatus
+  pk: 17
+  fields:
+    code: D2
+    max_gpa: 4
+    status: Good Standing
+- model: eh_app.GPAStatus
+  pk: 18
+  fields:
+    code: D3
+    max_gpa: 4
+    status: Good Standing
+- model: eh_app.GPAStatus
+  pk: 19
+  fields:
+    code: D4
+    max_gpa: 4
+    status: Good Standing(Prev Prob)
+- model: eh_app.GPAStatus
+  pk: 20
+  fields:
+    code: D5
+    max_gpa: 4
+    status: Good Standing

@@ -1,0 +1,27 @@
+{% load static %}
+<html lang="en" dir="ltr">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <head>
+    <meta charset="utf-8">
+    <title>EH-DSS</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  </head>
+  <body>
+    <div class="page-header">
+      <a href="{% url 'home' %}"><img src="{% static 'img/engineering-logo.jpg' %}"></a>
+      <div class="top-left">
+        {% if user.is_authenticated %}
+          <p class="top-menu">Hello {{ user.username }} </p>
+          <a href="{% url 'logout' %}">Log out</a>
+        {% else %}
+          <button type="button" class="btn btn-primary"><a href="{% url 'login' %}">Log in</a></button>
+        {% endif %}
+      </div>
+    </div>
+        {% block content %}
+        {% endblock %}
+
+  </body>
+</html>
